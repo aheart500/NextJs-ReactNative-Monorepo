@@ -1,0 +1,29 @@
+{
+  "name": "mobile",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "clean": "watchman watch-del '/Users/nasser/code/medc' &&  watchman watch-project '/Users/nasser/code/medc'",
+    "dev": "expo start"
+  },
+  "dependencies": {
+    "expo": "~49.0.3",
+    "expo-status-bar": "~1.6.0",
+    "react": "18.2.0",
+    "react-native": "0.72.3",
+    "@tanstack/react-query": "^4.32.0",
+    "@trpc/client": "^10.35.0",
+    "@trpc/react": "^9.27.4",
+    "@trpc/react-query": "^10.35.0",
+    "@trpc/server": "^10.35.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "typescript": "5.1.6"
+  },
+  "private": true
+}
